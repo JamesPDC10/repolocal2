@@ -1,0 +1,146 @@
+* { padding: 0;
+margin:0;}
+
+body { background-color: #FFF9DA;
+font-family: 'Trebuchet MS'sans-serif;}
+
+
+@font-face {
+font-family: 'BallparkWeiner2';
+src: url('fonts/ballpark.eot');
+src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+url('fonts/ballpark.ttf') format('truetype'),
+url('fonts/ballpark.svg#BallparkWeiner') format('svg'); font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Dayrom';
+src: url('fonts/dayrom.eot');
+src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+url('fonts/dayrom.ttf') format('truetype'),
+url('fonts/dayrom.svg#BallparkWeiner') format('svg'); font-weight: normal;
+font-style: normal;
+    
+}
+@font-face {
+font-family: 'Trebuchet MS';
+src: url('fonts/Trebuchet MS');
+src: url('fonts/Trebuchet MS.eot?#iefix') format('embedded-opentype'),
+url('fonts/Trebuchet MS.ttf') format('truetype'),
+url('fonts/Trebuchet MS.svg#BallparkWeiner') format('svg'); font-weight: normal;
+font-style: normal;
+}
+
+
+
+#wrapper { width:80%;
+margin:0 auto;}
+
+
+header { 
+width:100%;
+margin: 0 auto;
+box-sizing: content-box;
+height: 110px;
+border-bottom: solid 1px black;
+}
+
+#logo {float:left;}
+
+#logo h1 { font-size: 3em;
+font-family: 'BallparkWeiner2', serif;}
+
+#logo h2 { font-size: 1.2em;
+font-family: 'Dayrom';}
+
+nav { width:600px;
+float:right;
+}
+nav ul {
+list-style: none;
+margin-top: 70px;
+text-align: center;}
+
+nav ul li {font-size: 1.5em;
+display: inline-block;
+padding: 2px 20px 2px 20px;}
+
+nav ul li:hover { border-bottom: solid 1px black; }
+
+#immagine { width:100%;
+ margin:0 auto;
+box-sizing: content-box;
+margin-top:20px;}
+
+#immagine img{ width:100%;}
+
+#content { width:100%;
+display:inline-block;
+    margin-top:20px;}
+
+#testo {width:65%;
+    float: left;
+    font-size: 1em;
+}
+
+#testo h2 { margin-bottom: 10px;
+font-size:'Dayrom'; }
+
+#banner { width:30%;
+    background-color: gray;
+    float:right;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius:2%;
+    padding-top:20px;
+    color:white;
+}
+#banner p { width:80%;
+margin:0 auto;
+padding-top:20px;}
+
+#banner img {width:80%;
+margin:0 auto;}
+
+   
+#boxfooter {width:100%;
+margin:0 auto;
+    margin-top:20px;}
+
+.box { width:30%;
+  padding:10px;
+    margin:0 auto;
+    text-align: center;
+display: inline-block;}
+
+.icone { display: inline-block;
+font-size: 2em;
+color:white;
+padding: 10px 20px 10px 20px;}
+
+@media (max-width: 768.98px){ 
+    wrapper { width:100%;}
+    #logo { float:none;
+    width:100%;
+    text-align: center;}
+    nav { float:none;}
+    nav ul { margin-top:0;}
+    #immagine { display: none;}
+    #testo {width:100%;
+    float: none;
+        font-size: 1em;}
+        #banner { width:100%;
+    background-color: gray;
+    float:none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius:2%;
+    margin-top:30px;
+    color:white;
+}
+    #banner h2 { margin-bottom:20px;}
+}
+    
+
+
+
